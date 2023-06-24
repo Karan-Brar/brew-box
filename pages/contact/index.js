@@ -6,9 +6,16 @@ const Contact = () => {
   useEffect(() => {
     const contactCards = document.querySelectorAll(".contact-detail");
 
+    let translateVal = "10%"
+
+    if(window.innerWidth > 1000)
+    {
+      translateVal = "1000%"
+    }
+
     const animationConfig = {
       targets: contactCards,
-      translateX: ["1000%", "0%"], // Slide from left to right
+      translateX: [translateVal, "0%"], // Slide from left to right
       easing: "easeInOutSine",
       duration: 1000,
       loop: false,

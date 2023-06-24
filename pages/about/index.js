@@ -5,28 +5,28 @@ import { useEffect } from "react";
 import anime from "animejs";
 
 const About = () => {
-      useEffect(() => {
-        console.log("Here")
-        // Animation configuration
-        const animationConfig = {
-          targets: "#outer > div", // Select all the divs inside the outer div
-          translateX: ["-1000%", "0%"], // Slide from left to right
-          easing: "easeOutExpo",
-          duration: 1000, // Animation duration in milliseconds
-          delay: anime.stagger(200), // Delay each div animation
-        };
+    //   useEffect(() => {
+    //     console.log("Here")
+    //     // Animation configuration
+    //     const animationConfig = {
+    //       targets: "#outer > div", // Select all the divs inside the outer div
+    //       translateX: ["-1000%", "0%"], // Slide from left to right
+    //       easing: "easeOutExpo",
+    //       duration: 1000, // Animation duration in milliseconds
+    //       delay: anime.stagger(200), // Delay each div animation
+    //     };
 
-        // Slide in the divs on component mount
-        anime(animationConfig);
-      }, []);
+    //     // Slide in the divs on component mount
+    //     anime(animationConfig);
+    //   }, []);
 
   return (
-    <div className="">
+    <div className="lg:h-screen">
       <div className="w-4/5 mx-auto mt-20 sm:flex">
         <div className="sm:w-1/2 ">
           <Image
             src="/assets/images/customers-happy.svg"
-            alt="Coffee being served to customers"
+            alt="Coffee being served to cufstomers"
             width={550}
             height={550}
           ></Image>

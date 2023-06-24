@@ -47,7 +47,7 @@ export default function NavigationBar() {
           </svg>
 
           {toggleDropdown && (
-            <div className="dropdown">
+            <div className="dropdown z-10">
               <Link
                 href="/"
                 className="dropdown_link"

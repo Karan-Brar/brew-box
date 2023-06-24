@@ -32,8 +32,6 @@ const Home = () => {
         const sortedBreakpoints = breakpoints.sort((a, b) => b.width - a.width);
         const windowWidth = window.innerWidth;
 
-        console.log(window.innerWidth);
-
         for (let i = 0; i < sortedBreakpoints.length; i++) {
           if (windowWidth > sortedBreakpoints[i].width) {
             return {
