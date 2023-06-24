@@ -31,7 +31,7 @@ useEffect(() => {
 
 
   return (
-    <section className="h-screen menu-section mt-8" ref={menuRef}>
+    <section className="menu-section mt-8" ref={menuRef}>
       <div className="menu-card">
         <div className="menu-title">
           <h1>Cold Coffees</h1>

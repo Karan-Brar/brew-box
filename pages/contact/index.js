@@ -98,7 +98,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="contact-borders !rounded-t-lg !rounded-b-none"></div>
+      <div className="contact-borders !rounded-t-lg !rounded-b-none mb-4"></div>
     </section>
   );
 };

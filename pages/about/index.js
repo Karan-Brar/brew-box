@@ -21,7 +21,7 @@ const About = () => {
       }, []);
 
   return (
-    <div className="h-screen">
+    <div className="">
       <div className="w-4/5 mx-auto mt-20 sm:flex">
         <div className="sm:w-1/2 ">
           <Image

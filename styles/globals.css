@@ -126,7 +126,7 @@ body {
 
     .menu-card
     {
-      @apply border-x-8 border-green-100 
+      @apply border-x-8 border-green-100 mb-14
     }
 
     .menu-title
@@ -146,7 +146,7 @@ body {
 
     .menu-items
     {
-      @apply grid sm:grid-cols-2 grid-cols-1 grid-flow-row font-bold xl:w-1/3 w-5/6 mx-auto;
+      @apply grid sm:grid-cols-2 grid-cols-1 grid-flow-row font-bold xl:w-1/3 w-5/6 mx-auto gap-3;
     }
 
     .menu-card
