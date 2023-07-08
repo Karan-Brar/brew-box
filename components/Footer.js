@@ -8,14 +8,12 @@ const Footer = () => {
         <p className="logo_text !text-3xl !text-yellow-100">BrewBox</p>
       </Link>
 
-      <div
-        className="text-lg text-yellow-100 font-comforta flex items-center justify-center"
-        flex
-        items-center
-        justify-center
+      <Link
+        className="flex items-center justify-center text-lg font-comforta text-gray-650"
+        href="https://www.webcraft.ca/"
       >
-        &copy; WebCraft LLC 2023
-      </div>
+        Made by Webcraft
+      </Link>
     </div>
   );
 }
