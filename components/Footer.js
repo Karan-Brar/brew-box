@@ -9,7 +9,7 @@ const Footer = () => {
       </Link>
 
       <Link
-        className="flex items-center justify-center text-lg font-comforta text-gray-650"
+        className="flex items-center justify-center text-lg font-comforta text-yellow-50"
         href="https://www.webcraft.ca/"
       >
         Made by Webcraft
